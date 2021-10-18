@@ -15,7 +15,7 @@ Conn();
 
 app.use("/tarefas", TarefasRouters);
 
-const port = 3000;
+const port = 3001;
 
 app.listen(port, () => {
   console.log(`App rodando.`);
